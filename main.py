@@ -200,7 +200,7 @@ def show_user_transactions(user_id):
 
 
 if __name__ == "__main__":
-    print("Please use any command of choice and make user porfolio if you do not have one")
+    print("WELCOME TO MY WALLET KENYA: TYPE COMMAND OF CHOICE!!")
 #python main.py create-user
     main.add_command(create_user)
 #python main.py create-portfolio --user_id 1 --name "Tech Stocks"
