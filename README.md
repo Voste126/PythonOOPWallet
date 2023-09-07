@@ -25,27 +25,18 @@ Modules that contains my tables
 Main.py that holds helper methods to enable the runnig of the program
 
 DEMO
-RUnning the commands under:
-if __name__ == "__main__":
-    print("Please use any command of choice and make user porfolio if you do not have one")
-#python main.py create-user
-    main.add_command(create_user)
-#python main.py create-portfolio --user_id 1 --name "Tech Stocks"
-    main.add_command(create_portfolio)
-#python main.py update-portfolio-name <portfolio_id> <new_name>
-    main.add_command(update_portfolio_name)
-#python main.py delete-portfolio <portfolio_id>
-    main.add_command(delete_portfolio)
-#python main.py create-transaction <portfolio_id> <amount>
-    main.add_command(create_transaction)
-#python main.py update-transaction <Transaction_id> <new amount>
-    main.add_command(update_transaction)
-#python main.py delete-transaction <Transaction_id>
-    main.add_command(delete_transaction)
-#python main.py show-user-portfolios <User_id>
-    main.add_command(show_user_portfolios)
-#python main.py show-user-transactions <User_id>
-    main.add_command(show_user_transactions)
+RUnning the commands under the CLI is just by input of a number:
+----------------WELCOME TO MY WALLET KENYA: SELECT AN OPTION---------------------
+1. Create User
+2. Create Portfolio
+3. Update Portfolio Name
+4. Delete Portfolio
+5. Create Transaction
+6. Update Transaction
+7. Delete Transaction
+8. Show User Portfolios
+9. Show User Transactions
+0. Exit
 
 GETTING STARTED
 Run the normal pipenv install and also check the requirements.txt to see other addtional libraries 
