@@ -24,6 +24,13 @@ SQLAlchemy - FOr my database and also SQLALchemy Viewer as a Vscode extension
 Modules that contains my tables 
 Main.py that holds helper methods to enable the runnig of the program
 
+TABLE RELATIONSHIPS 
+ONE USER HAS MANY PORTFOLIOS
+ONE USER CAN CARRY OUT MANY TRANSACTONS 
+ONE TRANSACTION  BELONGS TO ONE PORTFOLIO
+ONE PORTFOLIO HAS MANY TRANSACTIONS 
+
+
 DEMO
 RUnning the commands under the CLI is just by input of a number:
 ----------------WELCOME TO MY WALLET KENYA: SELECT AN OPTION---------------------
