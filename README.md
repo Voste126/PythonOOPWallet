@@ -1,65 +1,95 @@
-#PYTHONOOPWALLET
-PROJECT TITLE: MY WALLET KENYA 
+# MYWALLETKENYACLI
+PROJECT TITLE: MY WALLET KENYA CLI-APP
 
-TABLE OF CONTENTS 
-Project Title 
-Table of Contents 
-About the Project Features 
-Demo 
-Getting Started 
-Prerequisites 
-Installation 
-Usage 
-Contributing 
-License 
-Contact
+Table of Contents
+- [Project Title](#project-title)
+- [About the Project](#about-the-project)
+- [Features](#features)
+- [Demo](#demo)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-ABOUT THE PROJECT 
-This is a simple CLI end phase project that uses OOP concepts and SQLALchemy.
-MY Wallet kenya is a CLI project that can be used in a large sale integration to its customer in the cyrptocurrencies and stock exchanges in general to watch for transaction and also investements in various markets. This idea can also be use by Data science and Data analysts to get insights on most popular markets once integrate and upgrade to serve such a purpose.
+## Project Title
 
-FEATURES 
-Alembic- For version controls in terms of mananging migrations 
-SQLAlchemy - FOr my database and also SQLALchemy Viewer as a Vscode extension
-Modules that contains my tables 
-Main.py that holds helper methods to enable the runnig of the program
+My Wallet Kenya CLI Project 
 
-TABLE RELATIONSHIPS 
-ONE USER HAS MANY PORTFOLIOS
-ONE USER CAN CARRY OUT MANY TRANSACTONS 
-ONE TRANSACTION  BELONGS TO ONE PORTFOLIO
-ONE PORTFOLIO HAS MANY TRANSACTIONS 
+## About the Project
+
+This is a simple CLI end phase project that uses OOP concepts and SQLALchemy. MY Wallet kenya is a CLI project that can be used in a large sale integration to its customer in the cyrptocurrencies and stock exchanges in general to watch for transaction and also investements in various markets. This idea can also be use by Data science and Data analysts to get insights on most popular markets once integrate and upgrade to serve such a purpose.
 
 
-DEMO
+## Features
+
+- User registration and management.
+- portfolio creation and management.
+- Transactioncreation and checking..
+
+
+## Demo
+
 RUnning the commands under the CLI is just by input of a number:
 ----------------WELCOME TO MY WALLET KENYA: SELECT AN OPTION---------------------
-1. Create User
-2. Create Portfolio
-3. Update Portfolio Name
-4. Delete Portfolio
-5. Create Transaction
-6. Update Transaction
-7. Delete Transaction
-8. Show User Portfolios
-9. Show User Transactions
-0. Exit
 
-GETTING STARTED
-Run the normal pipenv install and also check the requirements.txt to see other addtional libraries 
-Also make sure to run pipenv shell before instalation of any other libraries needed
-
-INSTALLATION 
-pipenv install && pipenv shell
+1.Create User
+2.Create Portfolio
+3.Update Portfolio Name
+4.Delete Portfolio
+5.Create Transaction
+6.Update Transaction
+7.Delete Transaction
+8.Show User Portfolios
+9.Show User Transactions
+0.Exit
 
 
-USAGE 
-Learing purposes of object oriented programming and also data managment using SQLAlchemy
+## Getting Started
 
-CONTRIBUTION 
-This is a pahse code project  that is to enhance the OOP concepts using python in Moringa school. Its guided and graded by my Techinical mentor Joseph Wambua
+Follow these steps to get the project up and running on your local machine.
 
-LICENSE 
-its a public repo that is used as a a portfolio project for end of phase 3
+### Prerequisites
 
-CONTACT Link and reach me on my linkedIn profile https://www.linkedin.com/in/steve-austine-84834823b/
+Before you begin, ensure you have the following installed:
+
+- Python 3.7+
+- `pipenv` (for managing the virtual environment)
+
+### Installation
+
+1. Clone the repository to your local machine:
+
+   ```bash
+   git clone https://github.com/Voste126/PythonOOPWallet
+
+
+2. Create a virtual environment and install project dependencies:
+    ```bash
+    pipenv install
+
+3. Activate the virtual environment:
+    pipenv shell
+
+4. Set up the database:
+# Assuming you have SQLite installed
+    python init_db.py
+
+5. Run the application:
+    python main.py
+
+
+## Usage
+Use the provided CLI commands to interact with the application.
+Follow the on-screen prompts to create users, portfolios, perform transactions, and more.
+
+## Contributing
+Any contribution are welcome.This was a solo project and first project to learn under phase 3 of the Moringa Software Enginnering class.
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details
+
+## Contact 
+Link and reach me on my linkedIn profile https://www.linkedin.com/in/steve-austine-84834823b/
